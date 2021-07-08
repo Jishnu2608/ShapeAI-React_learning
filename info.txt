@@ -1,0 +1,4 @@
+Life Cycle methods
+mount = When a component is rendered in a DOM initially.
+update = component is being updated
+unmount = components is removed from DOM.
