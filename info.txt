@@ -2,3 +2,14 @@ Life Cycle methods
 mount = When a component is rendered in a DOM initially.
 update = component is being updated
 unmount = components is removed from DOM.
+
+
+*For Mounting*
+
+Constructor = function -> it will be called initially by compiler
+
+Render = 
+
+ComponentDidMount = 
+-> get explore repos
+-> get activities
