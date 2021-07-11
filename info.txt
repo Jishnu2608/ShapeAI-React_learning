@@ -13,3 +13,18 @@ Render =
 ComponentDidMount = 
 -> get explore repos
 -> get activities
+
+static getDerivedStateFromProps (props, state) -> null or new state object
+
+Constructor
+shouldComponentUpdate(nextProp, nextState) -> false or true
+render()
+getSnapshotBeforeUpdate(prevProps, prevState) -> false or true
+componentDidUpdate()
+
+*UnMounting*
+componentWillUnmount(){
+    console.log("bye bye");
+}
+
+hooks -> power to your functional components
